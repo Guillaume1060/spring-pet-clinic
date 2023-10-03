@@ -4,14 +4,14 @@ import lombok.Getter;
 
 @Getter
 public class Person extends BaseEntity {
-    private String firstname;
-    private String lastname;
+    private String firstName;
+    private String lastName;
 
     public void setFirstName(String firstname) {
-        this.firstname = firstname;
+        this.firstName = firstname;
     }
 
     public void setLastName(String lastname) {
-        this.lastname = lastname;
+        this.lastName = lastname;
     }
 }
