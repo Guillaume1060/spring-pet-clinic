@@ -1,10 +1,14 @@
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\map\PetServiceMap.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\Owner.java
+C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\map\PetTypeServiceMap.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\map\OwnerServiceMap.java
+C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\Visit.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\OwnerService.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\CrudService.java
+C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\map\SpecialtyServiceMap.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\PetType.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\BaseEntity.java
+C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\Specialty.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\VetService.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\PetService.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\map\VetServiceMap.java
@@ -12,3 +16,5 @@ C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clin
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\Vet.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\model\Pet.java
 C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\map\AbstractMapService.java
+C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\PetTypeService.java
+C:\Users\guitc\OneDrive\Bureau\Code\Java\Spring\udemy\spring-pet-clinic\pet-clinic-data\src\main\java\com\udemy\springpetclinic\services\SpecialtyService.java
