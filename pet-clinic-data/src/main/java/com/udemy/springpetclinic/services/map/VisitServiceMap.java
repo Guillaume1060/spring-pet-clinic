@@ -3,9 +3,11 @@ package com.udemy.springpetclinic.services.map;
 import com.udemy.springpetclinic.model.Visit;
 import com.udemy.springpetclinic.services.PetService;
 import com.udemy.springpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit,Long> implements VisitService {
     private final PetService petService;
 
