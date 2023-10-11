@@ -20,21 +20,26 @@ import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+// Extension to use Mockito
 @ExtendWith(MockitoExtension.class)
 class OwnerControllerTest {
 
+    // Adding Mock
     @Mock
     OwnerService ownerService;
+    // Injecting our Mocks into the controller
     @InjectMocks
     OwnerController controller;
     Set<Owner> owners;
     MockMvc mockMvc;
     @BeforeEach
     void setUp() {
+        // Setting up an HashSet with 2 owners
         owners = new HashSet<>();
         owners.add(Owner.builder().id(1L).build());
         owners.add(Owner.builder().id(2L).build());
 
+        // Building the MockMvc with our controller
         mockMvc = MockMvcBuilders
                 .standaloneSetup(controller)
                 .build();
@@ -42,8 +47,10 @@ class OwnerControllerTest {
 
     @Test
     void listOwners() throws Exception {
+        // Setup to return owners when our ownerService call findAll
         when(ownerService.findAll()).thenReturn(owners);
 
+        // Using our mockMvc checkout our routes, view and attribute.
         mockMvc.perform(get("/owners"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("owners/index"))
@@ -51,6 +58,7 @@ class OwnerControllerTest {
     }
 
     @Test
+    // Idem with a different path
     void listOwnersByIndex() throws Exception {
         when(ownerService.findAll()).thenReturn(owners);
 
@@ -66,6 +74,7 @@ class OwnerControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("notImplemented"));
 
+        // Checking our service is not call.
         verifyNoInteractions(ownerService);
     }
 }
